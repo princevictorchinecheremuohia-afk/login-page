@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(to right, #000000, #434343);
+    color: #fff;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.section-1 {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border: 2px solid #fff;
+}
+
+.section-1 img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.sec-1 {
+    display: flex;
+    justify-content: space-between;
+    /* background: #b9b2b2; */
+    padding: 3rem 15rem;
+    border: 2px solid #fff;
+    height: 90vh;
+    margin-top: 2rem;
+}
+
+.section-2 .email-text {
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.section-2 {
+    border: 2px solid #fff;
+}
+
+.section-2 input {
+    border-radius: 20px;
+}
+
+.forgot-password {
+    text-align: center;
+}
+
+.forgot-password a {
+    text-decoration: none;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #008000;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #006400;
+}
