@@ -1,7 +1,7 @@
 body {
     background: linear-gradient(to right, #000000, #434343);
     color: #fff;
-    height: 100vh;
+    /* height: 100vh; */
     overflow: hidden;
 }
 
@@ -77,6 +77,14 @@ select option {
   color: #fff;
 }
 
+.create-new-account-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+
 @media screen and (max-width: 500px) {
     .sec-1 {
         width: 90%;
@@ -90,5 +98,10 @@ select option {
         height: auto;
         margin-top: 2rem;
         padding: 1rem;
+    }
+
+    .forgot-password {
+        display: block;
+        width: 100%;
     }
 }
