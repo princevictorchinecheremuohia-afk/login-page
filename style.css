@@ -8,8 +8,7 @@ body {
 .sec-1 {
     padding: 3rem;
     /* border: 2px solid #fff; */
-    height: 100vh;
-    max-height: 90vh;
+    height: 90vh;
     margin: auto;
     width: 400px;
     display: block;
@@ -92,6 +91,7 @@ select option {
         height: auto;
         margin-top: 2rem;
         padding: 1rem;
+        overflow: hidden;
     }
 
     .new-account-form {
@@ -99,6 +99,7 @@ select option {
         height: auto;
         margin-top: 2rem;
         padding: 1rem;
+        overflow: hidden;
     }
 
     .forgot-password {
