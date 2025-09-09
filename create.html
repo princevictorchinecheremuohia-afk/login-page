@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Create New Account</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="new-account-form">
+        <h2 class="text-center mb-4 animate__animated animate__backInDown">
+          Create New Account
+        </h2>
+        <!-- ------------------------------------FIRST NAME------------------------------------------------- -->
+        <div class="mb-3 animate__animated animate__backInLeft">
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputName"
+            aria-describedby="nameHelp"
+            placeholder="First Name"
+            required
+          />
+        </div>
+        <!-- ------------------------------------LAST NAME------------------------------------------------- -->
+        <div class="mb-3 animate__animated animate__backInRight">
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputLastName"
+            aria-describedby="lastNameHelp"
+            placeholder="Last Name"
+            required
+          />
+        </div>
+        <!-- ------------------------------------DATE OF BIRTH------------------------------------------------- -->
+        <div class="mb-3 animate__animated animate__backInLeft">
+          <input
+            type="date"
+            class="form-control"
+            id="exampleInputDOB"
+            placeholder="Date of Birth"
+            required
+          />
+        </div>
+        <!-- ------------------------------------GENDER------------------------------------------------- -->
+        <div class="mb-3 animate__animated animate__backInRight">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Gender</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="3">Other</option>
+          </select>
+        </div>
+        <!-- ------------------------------------EMAIL------------------------------------------------- -->
+        <div class="mb-3 animate__animated animate__backInLeft">
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Email Address"
+            required
+          />
+          <div id="emailHelp" class="form-text text-white">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <!-- -----------------------------------------CONFIRM EMAIL------------------------------------------------- -->
+        <div class="mb-3 animate__animated animate__backInRight">
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputConfirmEmail1"
+            aria-describedby="confirmEmailHelp"
+            placeholder="Confirm Email Address"
+            required
+          />
+          <div id="confirmEmailHelp" class="form-text text-white">
+            Please re-enter your email address.
+          </div>
+        </div>
+        <!-- ------------------------------------PASSWORD------------------------------------------------- -->
+        <div class="mb-3 animate__animated animate__backInLeft">
+          <input
+            type="password"
+            class="form-control"
+            minlength="8"
+            maxlength="16"
+            placeholder="Password"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <!-- ----------------------------------CONFIRM PASSWORD------------------------------------------- -->
+        <div class="mb-3 animate__animated animate__backInRight">
+          <input
+            type="password"
+            class="form-control"
+            minlength="8"
+            maxlength="16"
+            placeholder="Confirm Password"
+            id="exampleInputConfirmPassword1"
+          />
+        </div>
+        <!-- ------------------------------------SUBMIT BUTTON------------------------------------------------- -->
+        <button type="submit" class="btn animate__animated animate__backInUp">
+          Submit
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
