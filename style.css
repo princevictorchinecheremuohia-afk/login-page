@@ -8,7 +8,8 @@ body {
 .sec-1 {
     padding: 3rem;
     /* border: 2px solid #fff; */
-    height: 90vh;
+    height: 100vh;
+    max-height: 90vh;
     margin: auto;
     width: 400px;
     display: block;
@@ -103,5 +104,9 @@ select option {
     .forgot-password {
         display: block;
         width: 100%;
+    }
+
+    .forgot-password a:nth-child(2) {
+        margin-top: 0.5rem;
     }
 }
