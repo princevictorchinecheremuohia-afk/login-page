@@ -67,7 +67,20 @@ form a:hover {
     text-align: left;
 }
 
-.create-new-account-buttons {
-    display: flex;
-    gap: 8rem;
+.create-new-account-buttons button:nth-child(1) {
+    display: block;
+    width: 300px;
+}
+
+.create-new-account-buttons a {
+    display: block;
+    width: 300px;
+    margin-top: 0.5rem;
+}
+
+/* -------------------------MEDIA QUERY------------------------- */
+@media screen and (max-width: 468px) {
+    .create-new-account-buttons {
+    display: block;
+}
 }
